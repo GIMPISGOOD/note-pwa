@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>我的记事本</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- 关联 manifest 文件，告诉浏览器这是一个 PWA -->
+  <link rel="manifest" href="manifest.json">
+  <!-- 指定主题颜色（手机状态栏会变成这个颜色） -->
+  <meta name="theme-color" content="#2c3e50">
+</head>
+<body>
+  <div class="container">
+    <h1>📓 简记</h1>
+    <textarea id="note" placeholder="写点什么吧..."></textarea>
+    <p id="save-status" class="status"></p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
